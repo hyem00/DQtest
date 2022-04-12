@@ -1,4 +1,4 @@
 select *
 from EMP;
 
-코드수정했다
+코드수정했다rndndn
