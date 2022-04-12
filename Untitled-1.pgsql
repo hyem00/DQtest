@@ -35,3 +35,5 @@ SELECT d.deptno, d.dname,
 
 --select ename,top2(sal)
 --from emp;
+
+--커밋테스트
