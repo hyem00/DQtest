@@ -33,4 +33,5 @@ SELECT d.deptno, d.dname,
   FROM dept d;
  
 
-hghghghghgh
+select *
+from emp;
