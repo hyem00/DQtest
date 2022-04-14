@@ -20,18 +20,3 @@ where (deptno,job) in (select deptno , job
                     where empno =7499);
 
 
-
-SELECT ename,
-       (SELECT dname FROM dept d WHERE d.deptno = e.deptno) deptno
-FROM emp e
-WHERE job ='MANAGER';
-
-SELECT d.deptno, d.dname,
-       (SELECT MAX(sal) 
-          FROM emp
-         WHERE deptno = d.deptno) sal
-  FROM dept d;
- 
-
-select *
-from emp;
