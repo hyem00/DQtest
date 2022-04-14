@@ -33,7 +33,4 @@ SELECT d.deptno, d.dname,
   FROM dept d;
  
 
---select ename,top2(sal)
---from emp;
-
---커밋테스트
+hghghghghgh
